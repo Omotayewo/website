@@ -1,0 +1,322 @@
+html{
+	min-height: 100%;
+	scroll-behavior: smooth;
+}
+.b{
+	float: right;
+	margin: 3px 10px 0px 0px;
+	font-size: 40px;
+	color: magenta;
+}
+.a{
+	text-align: center;
+	font-size: 45px;
+	font-family: "great vibes", cursive;
+	background: linear-gradient(-45deg, magenta, orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+nav button{
+	background: none;
+	color: magenta;
+	border: none;
+	margin: 10px 0px 0px 10px;
+}
+nav{
+	position: relative;
+	display: inline-block;
+}
+.dropdown{
+	display: none;
+	position: absolute;
+	z-index: 5;
+	padding: 40px 0px;
+}
+.dropdown a{
+	color: red;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	border: 1px solid white;
+}
+.dropdown a:hover{
+	background-color: #f1f1f1;
+}
+nav:hover .dropdown{
+	display: block;
+	z-index: 5;
+}
+.top{
+	border-bottom: 1px solid magenta;
+	margin-bottom: 30px;
+}
+#first p{
+	text-align: center;
+	color: magenta;
+}
+.contact{
+	text-align: center;
+}
+.contact a{
+	padding: 20px;
+}
+#first{
+	background-image: url("/storage/emulated/0/ECX/pictures/Sstarss.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+	margin: -8px -8px 0px -7px;
+	animation: anime 1s linear 0s 1 normal;
+}
+@keyframes anime{
+	0%{
+		transform: rotate(-360deg);
+	}
+	13%{
+		transform: rotate(90deg);	
+	}
+	26%{
+		transform: rotate(360deg);
+	}
+	39%{
+		transform: rotate(630deg);
+	}
+	52%{
+		transform: rotate(900deg);
+	}
+	65%{
+		transform: rotate(1170deg);
+	}
+	78%{
+		transform: rotate(1430deg);
+	}
+	90%{
+		transform: rotate(1700deg);
+	}
+	100%{
+		transform: rotate(1970deg);
+	}
+}
+#twitter, #b{
+	color: hsl(203deg, 89%, 53%);
+}
+#facebook, #a{
+	color: blue;
+}
+#instagram, #c{
+	background: linear-gradient(hsl(37deg, 97%, 70%), hsl(329deg, 70%, 58%));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#two p{
+	color: black;
+	background: white;
+	margin: 10px -5px 0px -7px;
+	text-align: justify;
+	font-family: "opens sans", sans-serif;
+	line-height: 30px;
+	padding: 10px;
+}
+.pic1{
+	text-align: center;
+}
+.pic2 button, .pic3 button{
+	padding: 30px;
+	width: 100%;
+	font-size: 16px;
+	opacity: 0.7;
+}
+.pic2 button:active, .pic3 button:active{
+	background: lightblue;
+}
+.pic2 p, .pic3 p{
+	text-align:center;
+}
+.pic2{
+	margin-bottom: 100px;
+}
+.pic2, .pic3{
+	border: 2px groove black;
+	width: 87%;
+	box-shadow: 5px 5px 14px black;
+	margin-left: 20px;
+}
+p i{
+	padding: 10px;
+}
+#head{
+	border: 1px solid black;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	padding: 20px;
+	font-size: 25px;
+}
+.pic2 i, .pic3 i{
+	margin-left: 30px;
+}
+#rs1, #rs2{
+	background: linear-gradient(hsl(37deg, 97%, 70%), hsl(329deg, 70%, 58%));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#tag{
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 30px 0px;
+}
+#tag span{
+	font-size: 20px;
+}
+.lg{
+	position: relative;
+	background: linear-gradient(to right, red, purple);
+	border-radius: 20%;
+	padding: 1px;
+	width: 30.7%;
+}
+
+.ftag, .stag, .ttag{
+	background: white;
+	display: block;
+	color: magenta;
+	padding: 5px;
+	border: none;
+	border-radius: 20%;
+}
+.ftag:active, .stag:active, .ttag:active{
+	background: orange;
+}
+.lgone{
+	position: relative;
+	background: linear-gradient(to right, red, purple);
+	border-radius: 20%;
+	padding: 1px;
+	width: 26%;
+	margin: -28px 0px 0px 120px;
+}
+.lgtwo{
+	position: relative;
+	background: linear-gradient(to right, red, purple);
+	border-radius: 20%;
+	padding: 1px;
+	width: 32%;
+	margin-top: 20px;
+}
+#three{
+	background: rgb(66, 63, 75);
+	margin: 0px -8px -100px -8px;
+	color: white;
+}
+#motto{
+	text-align: center;
+	font-size: 40px;
+	font-family: "great vibes", cursive;
+	margin-bottom: -10px;
+	text-shadow: 2px 2px 3px white;
+}
+#it{
+	text-align: center;
+	font-size:10px;
+	margin-left: 120px;
+}
+ul{	
+	list-style-type: none;
+	margin: 0px;
+	padding: 20px;
+}
+li a, li{
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	
+}
+center p{
+	margin-bottom: -50px;
+}
+@media screen and (min-width: 480px) {
+	nav button{
+		font-size:40px;
+	}
+	.b{
+		font-size: 80px;
+	}
+	.top{
+		margin-bottom: 90px;
+		padding: 0px;
+	}
+	#two p{
+		line-height: 80px;
+	}
+	.dropdown{
+		padding: 90px 0px;
+		font-size: 30px;
+	}
+	.pic1{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.pic1 img{
+		height: 700px;
+		width: 600px;
+		text-align: center;
+		margin-bottom: -40px;
+	}
+	.pic1 i{
+		font-size: 6px;
+		margin-left: 300px;
+	}
+	#first{
+		animation: anime 0s;
+	}
+	.pic2, .pic3{
+		width: 50%;
+		height: 600px;
+		margin-left: 250px;
+	}
+	.pic2 img, .pic3 img{
+		height: 465px;
+		width: 100%;
+		text-align: center;
+	}
+	p i{
+		padding: 30px;
+	}
+	.ftag, .stag, .ttag{
+		font-size: 25px;
+		padding: 10px 30px;
+		width: 80%%;
+	}
+	.lgone{
+		margin: -50px 0px 0px 350px;
+		width: 22%;
+	}
+	.lgtwo{
+		margin: -50px 0px 0px 690px;
+		width:  26%;
+	}
+	.lg{
+		width: 25%;
+	}
+	#it{	
+		margin-left: 370px;
+		font-size: 7px;
+	}
+	li a, li{
+		font-size: 30px;
+	}
+	center p{
+		font-size: 9px;
+	}
+	.para i{
+		font-size: 7px;
+		margin-top: -150px;
+	}
+	.para p b{
+		margin-bottom: -700px;
+	}
+	nav button{
+		margin-bottom: -700px;
+	}
+}

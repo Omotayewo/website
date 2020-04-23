@@ -1,3 +1,4 @@
 # website
 
-https://github.com/Omotayewo/website/indexx.html
+
+https://omotayewo.github.io/website/indexx.html

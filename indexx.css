@@ -61,7 +61,7 @@ nav:hover .dropdown{
 	padding: 20px;
 }
 #first{
-	background-image: url("/storage/emulated/0/ECX/pictures/Sstarss.jpeg");
+	background-image: url("Sstarss.jpeg");
 	background-size: cover;
 	background-position: center;
 	background-repeat:no-repeat;
